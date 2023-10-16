@@ -33,7 +33,7 @@ You live in your own repository. There is a file called `file.txt`.
    
    ![q3](https://github.com/NesrinAbuMnezel/basic-staging/assets/95749191/1c372879-87bc-4d11-bb48-531c368e9f8a)
 
-4. What does `git diff --staged` tell you? why is this blank?
+4. What does `git diff --staged` tell you? why is this blank? because i dont write git add so there is nothing on stage area
    
    ![q4](https://github.com/NesrinAbuMnezel/basic-staging/assets/95749191/54a1f6a3-ef89-48a9-9142-8584259271a6)
 
