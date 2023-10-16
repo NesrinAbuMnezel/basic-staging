@@ -22,7 +22,8 @@ We will also work with `git restore` to restore the staged changes of a file, an
 You live in your own repository. There is a file called `file.txt`.
 
 1. What's the content of `file.txt`?
-![1q](https://github.com/NesrinAbuMnezel/basic-staging/assets/95749191/95388fc3-0710-4d2e-85aa-5bc7806e7679)
+   
+  ![1q](https://github.com/NesrinAbuMnezel/basic-staging/assets/95749191/95388fc3-0710-4d2e-85aa-5bc7806e7679)
 
 3. Overwrite the content in `file.txt`: `echo 2 > file.txt` to change the state of your file in the working directory (or `sc file.txt '2'` in PowerShell) 
 4. What does `git diff` tell you?
