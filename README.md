@@ -25,27 +25,30 @@ You live in your own repository. There is a file called `file.txt`.
    
   ![1q](https://github.com/NesrinAbuMnezel/basic-staging/assets/95749191/95388fc3-0710-4d2e-85aa-5bc7806e7679)
 
-3. Overwrite the content in `file.txt`: `echo 2 > file.txt` to change the state of your file in the working directory (or `sc file.txt '2'` in PowerShell) 
-4. What does `git diff` tell you?
-5. What does `git diff --staged` tell you? why is this blank?
-6. Run `git add file.txt` to stage your changes from the working directory.
-7. What does `git diff` tell you?
-8. What does `git diff --staged` tell you?
-9. Overwrite the content in `file.txt`: `echo 3 > file.txt` to change the state of your file in the working directory (or `sc file.txt '3'` in PowerShell).
-10. What does `git diff` tell you?
-11. What does `git diff --staged` tell you?
-12. Explain what is happening
-13. Run `git status` and observe that `file.txt` are present twice in the output.
-14. Run `git restore --staged file.txt` to unstage the change
-15. What does `git status` tell you now?
-16. Stage the change and make a commit
-17. What does the log look like?
-18. Overwrite the content in `file.txt`: `echo 4 > file.txt` (or `sc file.txt '4'` in PowerShell)
-19. What is the content of `file.txt`?
-20. What does `git status` tell us?
-21. Run `git restore file.txt`
-22. What is the content of `file.txt`?
-23. What does `git status` tell us?
+3. Overwrite the content in `file.txt`: `echo 2 > file.txt` to change the state of your file in the working directory (or `sc file.txt '2'` in PowerShell)
+
+   ![q2](https://github.com/NesrinAbuMnezel/basic-staging/assets/95749191/b7b77367-dc4f-4b2b-8108-17c0a2077be2)
+
+5. What does `git diff` tell you?
+6. What does `git diff --staged` tell you? why is this blank?
+7. Run `git add file.txt` to stage your changes from the working directory.
+8. What does `git diff` tell you?
+9. What does `git diff --staged` tell you?
+10. Overwrite the content in `file.txt`: `echo 3 > file.txt` to change the state of your file in the working directory (or `sc file.txt '3'` in PowerShell).
+11. What does `git diff` tell you?
+12. What does `git diff --staged` tell you?
+13. Explain what is happening
+14. Run `git status` and observe that `file.txt` are present twice in the output.
+15. Run `git restore --staged file.txt` to unstage the change
+16. What does `git status` tell you now?
+17. Stage the change and make a commit
+18. What does the log look like?
+19. Overwrite the content in `file.txt`: `echo 4 > file.txt` (or `sc file.txt '4'` in PowerShell)
+20. What is the content of `file.txt`?
+21. What does `git status` tell us?
+22. Run `git restore file.txt`
+23. What is the content of `file.txt`?
+24. What does `git status` tell us?
 
 ## Useful commands
 
