@@ -52,7 +52,7 @@ You live in your own repository. There is a file called `file.txt`.
     
   ![q7](https://github.com/NesrinAbuMnezel/basic-staging/assets/95749191/c6bfc078-88dd-40d1-a3cf-b1836d45711d)
 
-11. Explain what is happening
+11. Explain what is happening -> to show the changes on stage area i should do git add first
 12. Run `git status` and observe that `file.txt` are present twice in the output.
     
   ![q12](https://github.com/NesrinAbuMnezel/basic-staging/assets/95749191/2508fc0b-74eb-479b-9b32-ce640f4a67a5)
