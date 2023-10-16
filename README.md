@@ -40,32 +40,32 @@ You live in your own repository. There is a file called `file.txt`.
 7. What does `git diff --staged` tell you?
 8. Overwrite the content in `file.txt`: `echo 3 > file.txt` to change the state of your file in the working directory (or `sc file.txt '3'` in PowerShell).
 9. What does `git diff` tell you?
-![q6](https://github.com/NesrinAbuMnezel/basic-staging/assets/95749191/98cff215-e463-4313-9c96-af196647ba5e)
+  ![q6](https://github.com/NesrinAbuMnezel/basic-staging/assets/95749191/98cff215-e463-4313-9c96-af196647ba5e)
 
 10. What does `git diff --staged` tell you?
-![q7](https://github.com/NesrinAbuMnezel/basic-staging/assets/95749191/c6bfc078-88dd-40d1-a3cf-b1836d45711d)
+  ![q7](https://github.com/NesrinAbuMnezel/basic-staging/assets/95749191/c6bfc078-88dd-40d1-a3cf-b1836d45711d)
 
 11. Explain what is happening
 12. Run `git status` and observe that `file.txt` are present twice in the output.
-![q12](https://github.com/NesrinAbuMnezel/basic-staging/assets/95749191/2508fc0b-74eb-479b-9b32-ce640f4a67a5)
+  ![q12](https://github.com/NesrinAbuMnezel/basic-staging/assets/95749191/2508fc0b-74eb-479b-9b32-ce640f4a67a5)
 
 13. Run `git restore --staged file.txt` to unstage the change
 14. What does `git status` tell you now?
-![q13](https://github.com/NesrinAbuMnezel/basic-staging/assets/95749191/74f47e03-101a-4fe5-ae53-d9d9a01211b6)
+  ![q13](https://github.com/NesrinAbuMnezel/basic-staging/assets/95749191/74f47e03-101a-4fe5-ae53-d9d9a01211b6)
 
 15. Stage the change and make a commit
 16. What does the log look like?
-![q14](https://github.com/NesrinAbuMnezel/basic-staging/assets/95749191/ca762226-fc53-4df6-ba6d-8931912075b8)
+  ![q14](https://github.com/NesrinAbuMnezel/basic-staging/assets/95749191/ca762226-fc53-4df6-ba6d-8931912075b8)
 
 17. Overwrite the content in `file.txt`: `echo 4 > file.txt` (or `sc file.txt '4'` in PowerShell)
 18. What is the content of `file.txt`?
 19. What does `git status` tell us?
-![q15](https://github.com/NesrinAbuMnezel/basic-staging/assets/95749191/9906c85c-bfa1-46eb-a737-078f415fab70)
+  ![q15](https://github.com/NesrinAbuMnezel/basic-staging/assets/95749191/9906c85c-bfa1-46eb-a737-078f415fab70)
 
 20. Run `git restore file.txt`
 21. What is the content of `file.txt`?
 22. What does `git status` tell us?
-![q16](https://github.com/NesrinAbuMnezel/basic-staging/assets/95749191/a6b1cc93-7e69-4faa-8bf8-fddd79a8de1e)
+  ![q16](https://github.com/NesrinAbuMnezel/basic-staging/assets/95749191/a6b1cc93-7e69-4faa-8bf8-fddd79a8de1e)
 
 ## Useful commands
 
